@@ -19,5 +19,6 @@ $(document).ready(function () {
   $("#others").load("include/others.html");
   $("#contacts").load("include/contacts.html");
   $("#links").load("include/footer.html");
+  $("#download").load("include/download.html");
 
 });
