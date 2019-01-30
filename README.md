@@ -10,3 +10,9 @@ Template for Bootstrap 4
 # Screenshot
 
 ![theme-elements](https://user-images.githubusercontent.com/11728231/51980261-d0972380-248f-11e9-8ec5-ee8f003a439b.jpg)
+
+# Copyright and License
+
+- Code and copyright 2019 Valentino Pesce
+- Potos: free under the creative license from [Pexels](https://www.pexels.com/photo-license/)
+- Code released under the MIT License
