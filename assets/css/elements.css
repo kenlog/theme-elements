@@ -1,0 +1,165 @@
+/**
+ * 
+ * Theme Elements v1.0.0
+ * Copyright (c) 2019 Valentino Pesce (https://github.com/kenlog)
+ * Copyright (c) 2019 ilTuoBrand.it (https://iltuobrand.it/)
+ * Licensed under MIT (https://raw.githubusercontent.com/kenlog/theme-elements/master/LICENSE)
+ *  
+ * @author Valentino Pesce
+*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background: rgba(249,230,5,0.5);
+  color: #496174;
+}
+
+.fadeIn {
+  display: none;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+section {
+  padding-top:70px;
+  padding-bottom:70px
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+.btn-rov { 
+  color: #ffffff; 
+  background-color: #4683EA; 
+  border-color: #4683EA; 
+} 
+ 
+.btn-rov:hover, 
+.btn-rov:focus, 
+.btn-rov:active, 
+.btn-rov.active, 
+.open .dropdown-toggle.btn-rov { 
+  color: #ffffff; 
+  background-color: #2756A8; 
+  border-color: #4683EA; 
+} 
+ 
+.btn-rov:active, 
+.btn-rov.active, 
+.open .dropdown-toggle.btn-rov { 
+  background-image: none; 
+} 
+ 
+.btn-rov.disabled, 
+.btn-rov[disabled], 
+fieldset[disabled] .btn-rov, 
+.btn-rov.disabled:hover, 
+.btn-rov[disabled]:hover, 
+fieldset[disabled] .btn-rov:hover, 
+.btn-rov.disabled:focus, 
+.btn-rov[disabled]:focus, 
+fieldset[disabled] .btn-rov:focus, 
+.btn-rov.disabled:active, 
+.btn-rov[disabled]:active, 
+fieldset[disabled] .btn-rov:active, 
+.btn-rov.disabled.active, 
+.btn-rov[disabled].active, 
+fieldset[disabled] .btn-rov.active { 
+  background-color: #4683EA; 
+  border-color: #4683EA; 
+} 
+ 
+.btn-rov .badge { 
+  color: #4683EA; 
+  background-color: #ffffff; 
+}
+
+.navbar {
+  box-shadow: 0 0.5rem 1rem rgba(255, 255, 255, 0.05), 0 0 7px 1px rgba(0,0,0,0.1);
+}
+
+.nav-link {
+  display: block;
+  padding: .5rem 1rem;
+  font-weight: bold;
+}
+
+.nav-pills .nav-link {
+  color: #fff
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+  color: #fff;
+  background-color: #4683EA
+}
+
+.btn-group-sm>.btn, .btn-sm {
+  padding: .20rem .5rem;
+  font-size: .875rem;
+  line-height: 1.7;
+  border-radius: .2rem;
+}
+
+.bg-gradient {
+  background: rgba(255,255,255,1);
+  background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(249,249,249,1) 70%, rgba(237,237,237,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(70%, rgba(249,249,249,1)), color-stop(100%, rgba(237,237,237,1)));
+  background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(249,249,249,1) 70%, rgba(237,237,237,1) 100%);
+  background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(249,249,249,1) 70%, rgba(237,237,237,1) 100%);
+  background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(249,249,249,1) 70%, rgba(237,237,237,1) 100%);
+  background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(249,249,249,1) 70%, rgba(237,237,237,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0 );
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.bg-banner-1 {
+  background-image: url('../img/banner.jpg');
+  background-repeat: no-repeat, repeat;
+}
