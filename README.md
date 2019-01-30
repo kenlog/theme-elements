@@ -14,5 +14,5 @@ Template for Bootstrap 4
 # Copyright and License
 
 - Code and copyright 2019 Valentino Pesce
-- Potos: free under the creative license from [Pexels](https://www.pexels.com/photo-license/)
+- Photos: free under the creative license from [Pexels](https://www.pexels.com/photo-license/)
 - Code released under the MIT License
